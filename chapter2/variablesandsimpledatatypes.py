@@ -4,10 +4,15 @@ name = "ada lovelace"
 
 # Capitalise first letter of each word
 print(name.title())
+
 # Change all characters to upper case
 print(name.upper())
+
 # Change all characters to lower case
 print(name.lower())
+
+# alternate case
+print(name.swapcase())
 
 # Example of f strings
 first_name = "ada"
@@ -26,6 +31,7 @@ print(right_whitespace_str.rstrip())
 another_funky_str = "h e l l o"
 print(another_funky_str)
 print(another_funky_str.replace(" ", ""))
+
 
 # Large numbers can be allocated using underscore to ease reading
 large_num = 8_000_000
